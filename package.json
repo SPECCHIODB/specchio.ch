@@ -1,0 +1,24 @@
+{
+  "name": "specchio.ch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vuepress": "^0.14.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhnw-IP5-2018-specchio/specchio.ch.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fhnw-IP5-2018-specchio/specchio.ch/issues"
+  },
+  "homepage": "https://github.com/fhnw-IP5-2018-specchio/specchio.ch#readme"
+}
