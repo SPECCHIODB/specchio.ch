@@ -1,4 +1,7 @@
 .layout-default {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   
   // make the cta smaller on the default layout
   .cta {

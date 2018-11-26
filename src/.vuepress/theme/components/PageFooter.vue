@@ -33,6 +33,14 @@
                 Remote Sensing Laboratories (RSL)
               </a>
             </li>
+            <li>
+              <a
+                href="http://v473.vanager.de:8080/SPECCHIO_Web_Interface"
+                target="_blank"
+                rel="noopener noreferrer">
+                SPECCHIO Web Interface
+              </a>
+            </li>
           </ul>
         </div>
 

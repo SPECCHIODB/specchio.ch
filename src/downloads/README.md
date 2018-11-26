@@ -1,29 +1,34 @@
-All markdown files are compiled into Vue components and processed by webpack, therefore you can and should prefer referencing any asset using relative URLs:
+# SPECCHIO User
 
-This would work the same way as in *.vue file templates. The image will be processed with url-loader and file-loader, and copied to appropriate locations in the generated static build.
+The SPECCHIO User Guides are numbered in accordance with the SPECCHIO
+application versions. The User Guide contains: installation instructions,
+technical background information, operating instructions and a tutorial.
 
-In addition, you can use the ~ prefix to explicitly indicate this is a webpack module request, allowing you to reference files with webpack aliases or from npm dependencies:
 
-webpack aliases can be configured via configureWebpack in .vuepress/config.js. Example:
+# SPECCHIO Application Download 
 
-module.exports = {
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@alias': 'path/to/some/dir'
-      }
-    }
-  }
-}
+The SPECCHIO Application consists of a Java application plus a number of library
+files. The files are bundled within a ZIP archive which are named according to
+the version of the SPECCHIO application. Details about the features contained in
+the different versions can be found in the respective 
+[User Guides](http://specchio.ch/user_guides.php).
 
-# Public Files
-Sometimes you may need to provide static assets that are not directly referenced in any of your markdown or theme components - for example, favicons and PWA icons. In such cases you can put them inside .vuepress/public and they will be copied to the root of the generated directory.
+# SPECCHIO Virtual Machine Download 
 
-# Base URL
-If your site is deployed to a non-root URL, you will need to set the base option in .vuepress/config.js. For example, if you plan to deploy your site to https://foo.github.io/bar/, then base should be set to "/bar/" (it should always start and end with a slash).
+The SPECCHIO Virtualbox is a complete SPECCHIO server and client installed under
+a virtual CentOS 6.4 or CentOS 7 installation using 
+[Oracle Virtualbox](https://www.virtualbox.org/). 
 
-With a base URL, if you want to reference an image in .vuepress/public, you'd have to use URLs like /bar/image.png. However, this is brittle if you ever decide to change the base later. To help with that, VuePress provides a built-in helper $withBase (injected onto Vue's prototype) that generates the correct path:
 
-<img :src="$withBase('/foo.png')" alt="foo">
-Note you can use the above syntax not only in theme components, but in your markdown files as well.
 
+# SPECCHIO Matlab & R Guides
+
+The SPECCHIO Matlab and R Guides contain instructions and examples on how to
+directly access SPECCHIO from Matlab and R. 
+
+## Intended audience
+SPECCHIO users who want to run the full system locally, either on their personal
+machines or on a server at their own institution and who do not want to go
+through the hassle of a full system installation themselves. The SPECCHIO VM can
+be configured to be accessible from the host system or from external machines as
+well. 

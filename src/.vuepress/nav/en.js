@@ -14,5 +14,9 @@ module.exports = [
   {
     text: 'FAQ',
     link: '/faq/',
+  },
+  {
+    text: 'Api',
+    link: 'http://www.specchio.ch/doc/index.html',
   }
 ]
