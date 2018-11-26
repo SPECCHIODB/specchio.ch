@@ -1,0 +1,41 @@
+// Seach box
+.nav-search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-search-box .search-box {
+  input {
+    color: $black;
+    border-color: $white;
+  }
+  input:focus {
+    border-color: $link;
+  }
+
+  .suggestions {
+    background: $white;
+  }
+
+  .suggestion {
+    a {
+      color: $grey-dark !important;
+    }
+
+    &.focused {
+      a {
+        color: $grey-darker !important;
+      }
+    }
+  }
+}
+
+// Mobile search
+@media (max-width: 959px) {
+  .search-box input {  
+    left: 0 !important;  
+    width: 100% !important;
+  }
+}

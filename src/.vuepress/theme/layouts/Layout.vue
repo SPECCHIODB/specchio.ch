@@ -3,41 +3,9 @@
 
     <section class="hero is-info is-medium is-bold">
       <div class="hero-head">
-          <nav class="navbar">
-              <div class="container">
-                  <div class="navbar-brand">
-                      <a class="navbar-item" href="../">
-                          <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
-                      </a>
-                      <span class="navbar-burger burger" data-target="navbarMenu">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </span>
-                  </div>
-                  <div id="navbarMenu" class="navbar-menu">
-                      <div class="navbar-end">
-                          <div class="tabs is-right">
-                              <ul>
-                                  <li class="is-active"><a>Home</a></li>
-                                  <li><a href="">Examples</a></li>
-                                  <li><a href="">Features</a></li>
-                                  <li><a href="">Team</a></li>
-                                  <li><a href="">Help</a></li>
-                              </ul>
-                              <span class="navbar-item">
-                                  <a class="button is-white is-outlined" href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html">
-                                      <span class="icon">
-                                          <i class="fa fa-github"></i>
-                                      </span>
-                                      <span title="Hello from the other side">View Source</span>
-                                  </a>
-                              </span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </nav>
+
+          <navbar/>
+          
       </div>
       <div class="hero-body">
           <div class="container has-text-centered">
@@ -50,80 +18,27 @@
           </div>
       </div>
     </section>
-    <div class="box cta">
-        <p class="has-text-centered">
-            <span class="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-    </div>
+    <!-- CTA -->
+    <cta-box/>
 
-
-    <div class="container">
+    <!-- Content -->
+    <div class="container content-container">
       <Content/>
     </div>
 
-
-    <footer class="footer">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-3 is-offset-2">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Vestibulum errato isse</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="#">Aisia caisia</a></li>
-                            <li><a href="#">Murphy's law</a></li>
-                            <li><a href="#">Flimsy Lavenrock</a></li>
-                            <li><a href="#">Maven Mousie Lavender</a></li>
-                        </ul>
-                    </div>
-                    <div class="column is-3">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Labore et dolore magna aliqua</a></li>
-                            <li><a href="#">Kanban airis sum eschelor</a></li>
-                            <li><a href="#">Modular modern free</a></li>
-                            <li><a href="#">The king of clubs</a></li>
-                            <li><a href="#">The Discovery Dissipation</a></li>
-                            <li><a href="#">Course Correction</a></li>
-                            <li><a href="#">Better Angels</a></li>
-                        </ul>
-                    </div>
-                    <div class="column is-4">
-                        <h2><strong>Category</strong></h2>
-                        <ul>
-                            <li><a href="#">Objects in space</a></li>
-                            <li><a href="#">Playing cards with coyote</a></li>
-                            <li><a href="#">Goodbye Yellow Brick Road</a></li>
-                            <li><a href="#">The Garden of Forking Paths</a></li>
-                            <li><a href="#">Future Shock</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="content has-text-centered">
-                    <p>
-                        <a class="icon" href="https://github.com/dansup/bulma-templates">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </p>
-                    <div class="control level-item">
-                        <a href="https://github.com/dansup/bulma-templates">
-                            <div class="tags has-addons">
-                                <span class="tag is-dark">Bulma Templates</span>
-                                <span class="tag is-info">MIT license</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <!-- Footer -->
+    <page-footer/>
 
   </div>
 </template>
 
 <script>
-export default {
+import CtaBox from '../components/CtaBox.vue'
+import Navbar from '../components/Navbar.vue'
+import PageFooter from '../components/PageFooter.vue'
 
+export default {
+    components: { CtaBox, Navbar, PageFooter }
 }
 </script>
 

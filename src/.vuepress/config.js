@@ -4,4 +4,21 @@ module.exports = {
   plugins: [
     '@vuepress/search'
   ],
+  themeConfig: {
+    // logo: 'http://specchio.ch/SPECCHIO_Icon_Mid_Res.jpg',
+    repo: 'vuejs/vuepress',
+    cta: {
+      label: 'New',
+      text: 'Specchio Client v3.5.0 is now available for download.'
+    },
+    locales: {
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        nav: require('./nav/en')
+      },
+    } 
+  }
 }

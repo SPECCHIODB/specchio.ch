@@ -1,6 +1,8 @@
 /* ==========================================================================
 Bulma 
 ========================================================================== */
+@import "bulma/sass/utilities/initial-variables.sass";
+@import 'partials/colors';
 
 @import "bulma";
 
@@ -8,9 +10,11 @@ Bulma
 /* ==========================================================================
 Main SCSS file
 ========================================================================== */
-@import 'partials/colors';
 @import 'partials/html';
 @import 'partials/navbar';
 @import 'partials/hero';
 @import 'partials/cta';
+@import 'partials/content';
 @import 'partials/footer';
+@import 'partials/icon';
+@import 'partials/search-box';
