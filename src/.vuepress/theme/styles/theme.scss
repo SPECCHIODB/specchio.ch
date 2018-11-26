@@ -18,3 +18,11 @@ Main SCSS file
 @import 'partials/footer';
 @import 'partials/icon';
 @import 'partials/search-box';
+@import 'partials/header-anchor';
+
+/* ==========================================================================
+Layout tweaks
+========================================================================== */
+
+@import 'layouts/default';
+@import 'layouts/hero';

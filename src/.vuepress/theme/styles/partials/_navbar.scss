@@ -2,3 +2,22 @@
   font-size: 1.5em;
   font-weight: bold;
 }
+
+.navbar-brand .navbar-item {
+  background-color: transparent !important;
+}
+
+.navbar-menu {
+  .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: border 0.2s ease-in-out;
+  }
+
+  .nav-link:hover {
+    border-color: $grey-lighter;
+  }
+
+  .router-link-active {
+    border-bottom: 1px solid $white;
+  }
+}

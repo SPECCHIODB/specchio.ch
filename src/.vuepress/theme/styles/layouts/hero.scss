@@ -1,0 +1,19 @@
+.layout-hero {
+  .heading-hero {
+    position: relative;
+  }
+
+  .hero-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-image: url("/pexels-photo-207960.jpeg");
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.4;
+  }
+
+}

@@ -9,14 +9,11 @@ module.exports = {
     repo: 'vuejs/vuepress',
     cta: {
       label: 'New',
-      text: 'Specchio Client v3.5.0 is now available for download.'
+      text: 'Specchio Client v3.5.0 is now available for <a href="/downloads/">download</a>.'
     },
     locales: {
       '/': {
         label: 'English',
-        selectText: 'Languages',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
         nav: require('./nav/en')
       },
     } 

@@ -1,14 +1,25 @@
 <template>
-  <div class="layout-default">
+  <div class="layout-hero">
 
     <section class="hero is-dark is-medium is-bold heading-hero">
+      <div class="hero-background"/>
       <div class="hero-head">
-
-          <navbar/>
+        
+        <navbar/>
           
-      </div>    
+      </div>
+      <div class="hero-body">
+          <div class="container has-text-centered">
+              <h1 class="title">
+                {{ $frontmatter.title || $title }}
+              </h1>
+              <h2 class="subtitle">
+                {{ $description }}                
+              </h2>
+          </div>
+      </div>
     </section>
-
+    
     <!-- CTA -->
     <cta-box/>
 
