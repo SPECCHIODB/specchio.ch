@@ -8,8 +8,8 @@ module.exports = [
     link: '/downloads/',
     items: [
       {
-        text: 'User Guides',
-        link: '/downloads/user-guides/'
+        text: 'Guides',
+        link: '/downloads/guides/'
       },
     ]
   },
