@@ -24,6 +24,5 @@ If your site is deployed to a non-root URL, you will need to set the base option
 
 With a base URL, if you want to reference an image in .vuepress/public, you'd have to use URLs like /bar/image.png. However, this is brittle if you ever decide to change the base later. To help with that, VuePress provides a built-in helper $withBase (injected onto Vue's prototype) that generates the correct path:
 
-<img :src="$withBase('/foo.png')" alt="foo">
 Note you can use the above syntax not only in theme components, but in your markdown files as well.
 

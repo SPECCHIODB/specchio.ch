@@ -4,14 +4,22 @@
     class="tabs is-right">
 
     <!-- user links -->
-    <ul>
-      <nav-link 
+    <div
+      class="nav-item"
       v-for="item in userLinks"
       :key="item.link"
-      :item="item"
-      />            
-    </ul>
-
+    >
+      <DropdownLink
+        v-if="item.type === 'links'"
+        :item="item"
+      />
+      <NavLink
+        v-else
+        :item="item"
+      />
+    </div>
+  
+  
     <!-- repo link -->
     <a
       v-if="repoLink"

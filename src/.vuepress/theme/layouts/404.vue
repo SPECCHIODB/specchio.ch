@@ -1,5 +1,5 @@
 <template>
-  <div class="layout layout-default">
+  <div class="layout layout-404">
 
     <section class="hero is-dark is-medium is-bold heading-hero">
       <div class="hero-head">
@@ -14,7 +14,11 @@
 
     <!-- Content -->
     <div class="container content-container">
-      <Content/>
+      
+      <!-- 404 Error Page -->
+      <h1 class="title">404 - Page not found</h1>
+      <h3 class="subtitle">The page you are looking for can't be found.</h3>
+
     </div>
 
     <!-- Footer -->

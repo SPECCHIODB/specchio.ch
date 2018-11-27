@@ -47,12 +47,19 @@
         <!-- Feedback -->
         <div class="column is-3">
           <h2>
-            <strong>Feedback and Questions</strong>
+            <strong>Contact and Feedback</strong>
           </h2>
           <p>
-            We very much appreciate user feedback which you will kindly send to:
+            <a 
+              href="https://www.geo.uzh.ch/geolean/en/units/rsl/staff/?content=andreashueni"
+              target="_blank"
+              rel="noopener noreferrer">
+              A. Hueni
+            </a>
           </p>
-          <a href="mailto:admin@specchio.ch">admin@specchio.ch</a>        
+          <p>
+            <a href="mailto:admin@specchio.ch">admin@specchio.ch</a>
+          </p>
         </div>
 
         <!-- Other spectral databases -->

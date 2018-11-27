@@ -3,10 +3,12 @@
   font-weight: bold;
 }
 
+// Brand name
 .navbar-brand .navbar-item {
   background-color: transparent !important;
 }
 
+// Navigation menu
 .navbar-menu {
   .nav-link {
     border-bottom: 1px solid transparent;
@@ -19,5 +21,47 @@
 
   .router-link-active {
     border-bottom: 1px solid $white;
+  }
+}
+.tabs a {
+  border: none;
+}
+
+// Navigation item
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1;
+  }
+}
+
+// dropdown
+.dropdown-title .arrow {
+  display: inline-block;
+}
+
+.dropdown-wrapper .nav-dropdown {
+  .dropdown-item a {
+    color: $black !important;
+  }
+}
+
+.dropdown-wrapper .nav-dropdown .dropdown-item a.router-link-active::after {
+  border-left-color: $primary;
+}
+
+@media (min-width: 719px) {
+  .dropdown-wrapper {
+    height: auto;
+  }
+  .dropdown-wrapper .nav-dropdown {
+    right: auto;
+    top: auto;
+    border: 1px solid $grey-lighter !important;
   }
 }

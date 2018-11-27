@@ -1,8 +1,4 @@
-.layout-hero {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  
+.layout-hero {  
   .heading-hero {
     position: relative;
   }
@@ -13,7 +9,6 @@
     bottom: 0;
     width: 100%;
     
-    background-image: url("/pexels-photo-207960.jpeg");
     background-position: center;
     background-size: cover;
 

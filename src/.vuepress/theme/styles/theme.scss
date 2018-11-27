@@ -19,6 +19,7 @@ Main SCSS file
 @import 'partials/icon';
 @import 'partials/search-box';
 @import 'partials/header-anchor';
+@import 'partials/images';
 
 /* ==========================================================================
 Layout tweaks
@@ -26,3 +27,4 @@ Layout tweaks
 
 @import 'layouts/default';
 @import 'layouts/hero';
+@import 'layouts/404';

@@ -1,15 +1,17 @@
 module.exports = [
   {
-    text: 'News',
-    link: '/news/',
-  },
-  {
     text: 'Screenshots',
     link: '/screenshots/',
   },
   {
     text: 'Downloads',
     link: '/downloads/',
+    items: [
+      {
+        text: 'User Guides',
+        link: '/downloads/user-guides/'
+      },
+    ]
   },
   {
     text: 'FAQ',

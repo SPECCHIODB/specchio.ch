@@ -1,8 +1,13 @@
 <template>
-  <div class="layout-hero">
+  <div class="layout layout-hero">
 
     <section class="hero is-dark is-medium is-bold heading-hero">
-      <div class="hero-background"/>
+      <!-- Background image based on the current date -->
+      <div 
+        :style="backgroundImageStyle"
+        class="hero-background"/>
+      
+      <!-- Navigation -->
       <div class="hero-head">
         
         <navbar/>
@@ -40,7 +45,31 @@ import Navbar from '../components/Navbar.vue'
 import PageFooter from '../components/PageFooter.vue'
 
 export default {
-    components: { CtaBox, Navbar, PageFooter }
+    components: { CtaBox, Navbar, PageFooter },
+
+    computed: {
+      /**
+       * Get the image object for the day
+       */
+      backgroundImage () {
+        // get all images from the congig
+        let images = this.$themeConfig.backgroundImages
+
+        // grab one image and use the current date as the index
+        // this way we get a new image each day
+        let index = new Date().getDate() % images.length
+        return images[index]
+      },
+
+      /**
+       * Constructs the style object for the background image
+       */
+      backgroundImageStyle () {
+        return {
+          'background-image': `url(${this.backgroundImage.src})`
+        }
+      }
+    }
 }
 </script>
 
