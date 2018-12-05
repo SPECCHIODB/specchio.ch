@@ -22,7 +22,7 @@ The Web Interface allows you searched the database directly for spectral data by
   <!-- Download -->
   <feature-card
     :icon="['fas', 'download']"
-    to="/downloads/guides/"
+    to="/downloads/"
     class="column is-4">
 
 #### SPECCHIO Client / VM
@@ -35,7 +35,7 @@ We also provide a preconfigured VirtualBox VM with everything installed you need
   <!-- Guides -->
   <feature-card
     :icon="['fas', 'book']"
-    to="/downloads/guides/"
+    to="/downloads/"
     class="column is-4">
 
 #### Guides

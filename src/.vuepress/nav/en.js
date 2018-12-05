@@ -1,24 +1,18 @@
 module.exports = [
   {
     text: 'Screenshots',
-    link: '/screenshots/',
+    link: '/screenshots/'
   },
   {
     text: 'Downloads',
-    link: '/downloads/',
-    items: [
-      {
-        text: 'Guides',
-        link: '/downloads/guides/'
-      },
-    ]
+    link: '/downloads/'
   },
   {
     text: 'FAQs',
-    link: '/faq/',
+    link: '/faq/'
   },
   {
     text: 'Api',
-    link: 'http://www.specchio.ch/doc/index.html',
+    link: 'http://www.specchio.ch/doc/index.html'
   }
 ]

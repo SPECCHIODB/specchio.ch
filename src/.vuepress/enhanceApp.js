@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faDatabase, faBook, faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDatabase, faBook, faDownload, faDesktop, faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 export default ({
@@ -11,5 +11,7 @@ export default ({
   library.add(faDownload)
   library.add(faDatabase)
   library.add(faBook)
+  library.add(faDesktop)
+  library.add(faBoxOpen)
   Vue.component('font-awesome', FontAwesomeIcon)
 }

@@ -4,17 +4,18 @@ module.exports = {
 
   plugins: [
     '@vuepress/medium-zoom',
+    require('./plugins/releases')
   ],
 
   head: [
-    ['link', { rel: 'apple-touch-icon', size: '180x180', href: `icons/apple-touch-icon.png` }],
-    ['link', { rel: 'icon', type: 'image/png', size: '32x32', href: `icons/favicon-32x32.png` }],
-    ['link', { rel: 'icon', type: 'image/png', size: '16x16', href: `icons/favicon-16x16.png` }],
-    ['link', { rel: 'manifest', href: `icons/site.webmanifest` }],
-    ['link', { rel: 'mask-icon', color: '#5bbad5', href: `icons/safari-pinned-tab.svg` }],
-    ['link', { rel: 'shortcut icon', href: `icons/favicon.ico` }],
+    ['link', { rel: 'apple-touch-icon', size: '180x180', href: `/icons/apple-touch-icon.png` }],
+    ['link', { rel: 'icon', type: 'image/png', size: '32x32', href: `/icons/favicon-32x32.png` }],
+    ['link', { rel: 'icon', type: 'image/png', size: '16x16', href: `/icons/favicon-16x16.png` }],
+    ['link', { rel: 'manifest', href: `/icons/site.webmanifest` }],
+    ['link', { rel: 'mask-icon', color: '#5bbad5', href: `/icons/safari-pinned-tab.svg` }],
+    ['link', { rel: 'shortcut icon', href: `/icons/favicon.ico` }],
     ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
-    ['meta', { name: 'msapplication-config', content: 'icons/browserconfig.xml' }],
+    ['meta', { name: 'msapplication-config', content: '/icons/browserconfig.xml' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }]
   ],
 
