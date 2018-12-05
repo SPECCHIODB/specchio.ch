@@ -16,10 +16,12 @@ Main SCSS file
 @import 'partials/cta';
 @import 'partials/content';
 @import 'partials/footer';
+@import 'partials/card';
 @import 'partials/icon';
 @import 'partials/search-box';
 @import 'partials/header-anchor';
 @import 'partials/images';
+
 
 /* ==========================================================================
 Layout tweaks
@@ -28,3 +30,11 @@ Layout tweaks
 @import 'layouts/default';
 @import 'layouts/hero';
 @import 'layouts/404';
+
+
+/* ==========================================================================
+Layout tweaks
+========================================================================== */
+
+@import 'components/intro';
+@import 'components/features';

@@ -14,7 +14,7 @@ module.exports = [
     ]
   },
   {
-    text: 'FAQ',
+    text: 'FAQs',
     link: '/faq/',
   },
   {

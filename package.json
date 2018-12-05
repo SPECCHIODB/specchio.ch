@@ -8,12 +8,11 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
     "@fortawesome/vue-fontawesome": "^0.1.2",
-    "@vuepress/plugin-blog": "^1.0.0-alpha.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
     "bulma": "^0.7.2",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.0-alpha.24"
+    "vuepress": "^1.0.0-alpha.23"
   },
   "scripts": {
     "dev": "vuepress dev src",

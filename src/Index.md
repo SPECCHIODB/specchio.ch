@@ -8,61 +8,59 @@ description: SPECCHIO is a spectral information system designed to hold referenc
 <div class="columns features">
 
   <!-- Webapp -->
-  <div class="column is-4">
-    <div class="card is-shady">
+  <a href="http://v473.vanager.de:8080/SPECCHIO_Web_Interface" target="_blank" rel="noopener noreferrer" class="column is-4">
+    <div class="card is-shady feature-card">
       <div class="card-image has-text-centered">
         <font-awesome :icon="['fas', 'database']"/>
       </div>
       <div class="card-content">
         <div class="content">
-          <h4>Tristique senectus et netus et. </h4>
-          <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-          <p><a href="#">Learn more</a></p>
+          <h4>SPECCHIO Web Interface</h4>
+          <div>The Web Interface allows you searched the database directly for spectral data by web browser without installing additional software.</div>
         </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <!-- Download -->
-  <div class="column is-4">
-    <div class="card is-shady">
+  <a href="http://v473.vanager.de:8080/SPECCHIO_Web_Interface/search" class="column is-4">
+    <div class="card is-shady feature-card">
       <div class="card-image has-text-centered">
         <font-awesome :icon="['fas', 'download']"/>
       </div>
       <div class="card-content">
         <div class="content">
-          <h4>Tempor orci dapibus ultrices in.</h4>
-          <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem
-          sed risus.</p>
-          <p><a href="#">Learn more</a></p>
+          <h4>SPECCHIO Client / VM</h4>
+          <p>Download the latest SPECCHIO Client Application. We have installers for MacOS, Windows and Linux.</p>
+          <p>We also provide a preconfigured VirtualBox VM with everything installed you need.</p>
         </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <!-- Guides -->
-  <div class="column is-4">
-    <div class="card is-shady">
+  <a href="/downloads/guides/" class="column is-4">
+    <div class="card is-shady feature-card">
       <div class="card-image has-text-centered">
         <font-awesome :icon="['fas', 'book']"/>
       </div>
       <div class="card-content">
         <div class="content">
-          <h4>Tempor orci dapibus ultrices in.</h4>
-          <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem
-          sed risus.</p>
-          <p><a href="#">Learn more</a></p>
+          <h4>Guides</h4>
+          <p>We provide guides with detailed installation instructions, technical background information and tutorials for the SPECCHIO client application. Furthermore, there are also guides on how to access SPECCHIO directly from Matlab and R.</p>
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
 
-# Introduction
-Outreach Shame is the place to expose every lousy outreach emails. It’s every online marketer’s worst nightmares. These emails are everything you shouldn’t do to promote your business & content. Everything’s kept anonymous for good fun above all.
 
-## How can you contribute?
-Simple, forward us the shameful email to *outreachshame@snipcart.com* where it’ll be up for moderation. We kindly ask you to censor any personal information from the email before forwarding it to us. Once your submission is accepted by our team it’ll be published on the site outreachshame.com.
-
-## How it does work?
-Once a submission is approved, a commit is pushed in this [GitHub repository](https://github.com/snipcart/outreachshame). We then use [Forestry](https://forestry.io/#/) to make content editing and publishing easier for our dumb marketing folks. Once the entry is published, the site is built and deployed automatically on Netlify.
+<!-- Teaser -->
+<div class="intro column is-8 is-offset-2">
+  <h2 class="title">Perfect for research!</h2>
+  <p class="subtitle">
+    Programmatic access from e.g. Matlab or R.
+    Check out the <a href="http://specchio.ch/programming_course.php">tutorials</a> 
+    and our extensive <a href="http://www.specchio.ch/doc/index.html" target="_blank" rel="noopener noreferrer">API documentation</a>.
+  </p>
+</div>
