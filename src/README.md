@@ -56,15 +56,16 @@ Programmatic access from e.g. Matlab or R.
 Check out the [tutorials](http://specchio.ch/programming_course.php)
 and our extensive [API documentation](http://www.specchio.ch/doc/index.html).
 
-</div>
-
-
-
-
-<!-- Architecture -->
-<div class="intro column is-8 is-offset-2">
-
-# Flexible Architecture
 ![Architecture](./_img/Architecture.jpg)
 
 </div>
+
+
+::: slot header
+# Here might be a page title
+:::
+
+::: slot twitter
+<!-- Tweets -->
+<twitter-feed/>
+:::

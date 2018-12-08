@@ -29,8 +29,16 @@
     <cta-box/>
 
     <!-- Content -->
-    <div class="container content-container">
-      <Content/>
+    <div class="content-container">
+      <Content class="container"/>
+    </div>
+
+
+    <!-- Content -->
+    <div class="twitter-container">
+      <Content 
+        slot-key="twitter"
+        class="container"/>
     </div>
 
     <!-- Footer -->

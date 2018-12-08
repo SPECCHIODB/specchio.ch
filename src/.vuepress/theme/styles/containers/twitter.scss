@@ -1,0 +1,14 @@
+.twitter-container {
+  padding: 3em 0;
+  background-color: $primary;
+
+  .content.twitter.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .twitter-feed {
+    flex-grow: 0.3;
+  }
+}
