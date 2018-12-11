@@ -19,4 +19,17 @@
     display: none;
   }
 
+  .navbar {
+    background-color: $black-ter;
+    box-shadow: 0 10px 16px rgba($black, 0.13), 0 6px 6px rgba($black, 0.19);
+  }
+
+
+  @media (min-width: 719px) {
+    .navbar {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+
 }
