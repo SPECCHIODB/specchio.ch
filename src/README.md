@@ -67,5 +67,7 @@ and our extensive [API documentation](http://www.specchio.ch/doc/index.html).
 
 ::: slot twitter
 <!-- Tweets -->
-<twitter-feed/>
+<client-only>
+  <twitter-feed/>
+</client-only>
 :::
