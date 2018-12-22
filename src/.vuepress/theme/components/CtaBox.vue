@@ -1,18 +1,36 @@
 <template>
   <div 
-    v-if="$site.themeConfig.cta"
+    v-if="showCta"
     class="box cta">
       <p class="has-text-centered">
           <span class="tag is-primary">
-              {{$site.themeConfig.cta.label}}
+             New
           </span>
-          <span v-html="$site.themeConfig.cta.text"/>
+          <span v-html="text"/>
       </p>
   </div>
 </template>
 
 <script>
-export default {
+import moment from 'moment'
 
+export default {
+  computed: {
+    showCta () {
+      return this.$site.themeConfig.showCta && this.recentlyReleased
+    },
+    recentlyReleased () {
+      return moment(this.release.created_at).add(this.$site.themeConfig.showCtaForDays, 'days').isAfter()
+    },
+    release () {
+      return this.$page.release
+    },
+    version () {
+        return this.release.name
+    },
+    text () {
+      return `Specchio Client ${this.version} is now available for <a href="/downloads/">download</a>.`
+    }
+  }
 }
 </script>

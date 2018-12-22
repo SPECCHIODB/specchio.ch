@@ -27,6 +27,6 @@ be configured to be accessible from the host system or from external machines as
 well.
 
 
-# Releases
+# Latest release
 
-<releases-list />
+<releases-info />

@@ -1,77 +1,67 @@
-const changelog1 = `
-## Added
-- Includes can now be requested with underscores and hyphens as the separator and will be converted to camelCase
+const Vue = require('vue')
+const request = require('sync-request')
 
-## Fixed
-- Ensure that pagination data is always an integer by explicitly casting pages to Numbers
-`
+let apiResonse = {
+  "url": "https://api.github.com/repos/rhwilr/vue-nestable/releases/14556930",
+  "assets_url": "https://api.github.com/repos/rhwilr/vue-nestable/releases/14556930/assets",
+  "upload_url": "https://uploads.github.com/repos/rhwilr/vue-nestable/releases/14556930/assets{?name,label}",
+  "html_url": "https://github.com/rhwilr/vue-nestable/releases/tag/1.0.0",
+  "id": 14556930,
+  "node_id": "MDc6UmVsZWFzZTE0NTU2OTMw",
+  "tag_name": "1.0.0",
+  "target_commitish": "master",
+  "name": "v1.0.0",
+  "draft": false,
+  "author": {
+  "login": "rhwilr",
+  "id": 4346833,
+  "node_id": "MDQ6VXNlcjQzNDY4MzM=",
+  "avatar_url": "https://avatars0.githubusercontent.com/u/4346833?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/rhwilr",
+  "html_url": "https://github.com/rhwilr",
+  "followers_url": "https://api.github.com/users/rhwilr/followers",
+  "following_url": "https://api.github.com/users/rhwilr/following{/other_user}",
+  "gists_url": "https://api.github.com/users/rhwilr/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/rhwilr/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/rhwilr/subscriptions",
+  "organizations_url": "https://api.github.com/users/rhwilr/orgs",
+  "repos_url": "https://api.github.com/users/rhwilr/repos",
+  "events_url": "https://api.github.com/users/rhwilr/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/rhwilr/received_events",
+  "type": "User",
+  "site_admin": false
+  },
+  "prerelease": false,
+  "created_at": "2018-12-16T10:25:49Z",
+  "published_at": "2018-12-16T10:27:42Z",
+  "assets": [],
+  "tarball_url": "https://api.github.com/repos/rhwilr/vue-nestable/tarball/1.0.0",
+  "zipball_url": "https://api.github.com/repos/rhwilr/vue-nestable/zipball/1.0.0",
+  "body": ":tada: I'm proud to announce that version 1.0 has landed. :tada: \r\n\r\nNo changes since the last beta release, but if you are upgrading from a 0.x release, please note that the polyfill for the [experimental support](https://github.com/vuejs/vue/pull/7765) for binding scopedSlots was removed. See [Installation](https://github.com/rhwilr/vue-nestable#installation) for details on how to import the component."
+  }
 
-const changelog2 = `
-## Fixed
-- **compiler**: wrap scoped slots v-if conditions in parens (#9119) ef8524a, closes #9119 #9114
-- **compiler**: maybeComponent should return true when "is" attribute exists (#8114) aef2a5f, closes #8114 #8101
-- **compiler**: normalize potential functional component children in v-for (#8558) d483a49, closes #8558 #8468
-- **compiler**: should keep newline after unary tags in <pre> (#8965) 05001e6, closes #8965 #8950
-- **compiler**: templates inside v-pre should be rendered to HTML (#8146) ecac831, closes #8146 #8041
-- **component**: clean up memory leak after loading async component completes (fix #8740) (#8755) 2e472c5, closes #8740 #8755
-- **core**: avoid mutating original children when cloning vnode 097f622, closes #7975
-- **core**: properly handle reused vnodes 530ca1b, closes #7913
-- **core**: skip mixins and extends if child is already merged (#8870) 80f17fa, closes #8870 #8865
-`
-
-function getReleasesList () {
-  return [
-    {
-      version: '3.3.1',
-      date:    new Date(),
-      changelog: changelog2,
-      assets: [
-        {
-          type: 'vm',
-          name: 'VirtualBoxVM_3.3.1',
-          url: 'ftp://v473.vanager.de/SPECCHIO-3.3.0.0-VM.ova',
-          size: 4568972564
-        }, {
-          type: 'client',
-          name: 'ClientInstaller_3.3.1',
-          url: 'ftp://v473.vanager.de/specchio-client-installer-generic-3.3.0.1.zip',
-          size: 21516483
-        }
-      ]
-    },
-    {
-      version: '3.3.0',
-      date:    new Date(),
-      changelog: changelog1,
-      assets: [
-        {
-          type: 'vm',
-          name: 'VirtualBoxVM_3.3.0',
-          url: 'ftp://v473.vanager.de/SPECCHIO-3.3.0.0-VM.ova',
-          size: 4768972564
-        }, {
-          type: 'client',
-          name: 'ClientInstaller_3.3.0',
-          url: 'ftp://v473.vanager.de/specchio-client-installer-generic-3.3.0.1.zip',
-          size: 21614833
-        }
-      ]
+async function getRelease (githubUrl) {
+  // reqeust the latest release from the github repository
+  const res = request('GET', `${githubUrl}/releases/latest`, {
+    headers: {
+      'user-agent': 'vuepress',
     }
-  ]
+  })
+
+  // save the response to the cache variable
+  apiResonse = JSON.parse(res.getBody('utf8'))
+
+  return apiResonse
 }
 
 module.exports = (options, ctx) => {
-  return {
-
-    /**
-     * Inject the releases array in to the page.
-     */
+  return {  
     extendPageData ($page) {
-      $page.releases = getReleasesList()
-    },
+      // use the cached response or request it from the api
+      const release = apiResonse || getRelease($page._context.themeConfig.githubUrl)
 
-    async ready() {
-      console.log('hello fron releases')
+      $page.release = release
     }
   }
 }

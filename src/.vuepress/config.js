@@ -42,10 +42,10 @@ module.exports = {
       }
     ],
     search: false,
-    cta: {
-      label: 'New',
-      text: 'Specchio Client v3.5.0 is now available for <a href="/downloads/">download</a>.'
-    },
+    showCta: true,
+    showCtaForDays: 30,
+    githubUrl: 'https://api.github.com/repos/rhwilr/vue-nestable',
+    jenkinsUrl: 'http://localhost:8080/job/SPECCHIO',
     locales: {
       '/': {
         label: 'English',
