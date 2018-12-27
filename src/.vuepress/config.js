@@ -47,12 +47,11 @@ module.exports = {
     // specchio webinterface url
     specchioWebinterface: 'http://v473.vanager.de:8080/SPECCHIO_Web_Interface',
 
-
-    // github url
-    githubUrl: 'https://github.com/SPECCHIODB/SPECCHIO',
+    // github api url
+    githubApiUrl: 'https://api.github.com/repos/SPECCHIODB/SPECCHIO',
     
     // Build server
-    jenkinsUrl: 'https://jenkins.winpat.ch/job/SPECCHIO',
+    jenkinsUrl: 'https://jenkins.winpat.ch/job',
 
     locales: {
       '/': {

@@ -4,11 +4,11 @@
     <div class="card-content">
 
       <!-- Title -->
-      <p class="title is-3">{{ release.name }}</p>
+      <p class="title is-2">{{ release.name }}</p>
       <p class="subtitle is-6 is-spaced">{{ date }}</p>
 
       <!-- Downloads -->
-      <div class="title is-4">Downloads</div>
+      <div class="title is-3">Downloads</div>
 
       <ul>
         <li>
@@ -25,7 +25,7 @@
             <font-awesome :icon="['fas', 'box-open']"/>
             
             <span>
-              VirutalBox-VM.ova
+              specchio-centos-7.6-vbox-x86_64.ova
             </span>      
           </a>
         </li>
@@ -33,7 +33,7 @@
 
       <!-- Changelog -->
       <template v-if="changelog">
-        <div class="title is-4">Changelog</div>
+        <div class="title is-3">Changelog</div>
         <p 
           class="release-changelog"
           v-html="changelog"/>
@@ -64,11 +64,11 @@ export default {
     },
     downloadClientLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
-      return `${jenkinsUrl}/lastSuccessfulBuild/artifact/src/client/build/distributions/specchio-installer.jar`
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/client/build/distributions/specchio-installer.jar`
     },
     downloadVMLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
-      return `${jenkinsUrl}/lastSuccessfulBuild/artifact/src/client/build/libs/VirutalBox-VM.ova`
+      return `${jenkinsUrl}/VM_Appliance/lastSuccessfulBuild/artifact/output-virtualbox-iso/specchio-centos-7.6-vbox-x86_64.ova`
     }
   },
 

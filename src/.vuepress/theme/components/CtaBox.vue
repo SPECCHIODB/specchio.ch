@@ -20,6 +20,7 @@ export default {
       return this.$site.themeConfig.showCta && this.recentlyReleased
     },
     recentlyReleased () {
+      if (!this.release.created_at) return false
       return moment(this.release.created_at).add(this.$site.themeConfig.showCtaForDays, 'days').isAfter()
     },
     release () {

@@ -20,6 +20,7 @@ a virtual CentOS 6.4 or CentOS 7 installation using
 [Oracle Virtualbox](https://www.virtualbox.org/). 
 
 #### Intended audience
+
 SPECCHIO users who want to run the full system locally, either on their personal
 machines or on a server at their own institution and who do not want to go
 through the hassle of a full system installation themselves. The SPECCHIO VM can
