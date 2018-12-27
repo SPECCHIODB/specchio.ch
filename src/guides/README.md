@@ -10,6 +10,7 @@ technical background information, operating instructions and a tutorial.
     name="SPECCHIO User Guide V3.3.0"
     link="ftp://v473.vanager.de/user_guides/SPECCHIO_UserGuide.pdf"/>
 
+
 ### SPECCHIO Matlab & R Guides
 
 The SPECCHIO Matlab and R Guides contain instructions and examples on how to
@@ -22,3 +23,9 @@ directly access SPECCHIO from Matlab and R.
 <download-link
     name="SPECCHIO_R_Guide_V3.1.0"
     link="ftp://v473.vanager.de/user_guides/SPECCHIO_R_Guide_V3.1.0.pdf"/>
+
+
+### SPECCHIO Programming Course
+
+There are also a few courses that teach you how to programm with SPECCHIO.
+See [here](/programming-course/).

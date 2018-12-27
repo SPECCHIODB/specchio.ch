@@ -110,7 +110,7 @@
             </li>
             <li>
               <a
-                href="http://specchio.ch/spectra_proc.php"
+                href="/spectra_proc/"
                 target="_blank"
                 rel="noopener noreferrer">
                 SpectraProc system
