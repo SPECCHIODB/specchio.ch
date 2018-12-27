@@ -11,7 +11,7 @@ description: SPECCHIO is a spectral information system designed to hold referenc
   <feature-card
     absolute
     :icon="['fas', 'database']"
-    to="http://v473.vanager.de:8080/SPECCHIO_Web_Interface"
+    :to="$site.themeConfig.specchioWebinterface"
     class="column is-4">
 
 #### SPECCHIO Web Interface

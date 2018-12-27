@@ -20,7 +20,6 @@ module.exports = {
   ],
 
   themeConfig: {
-    // logo: 'http://specchio.ch/SPECCHIO_Icon_Mid_Res.jpg',
     backgroundImages: [
       {
         src: '/backgrounds/pexels-photo-286588-min.jpeg'
@@ -44,8 +43,17 @@ module.exports = {
     search: false,
     showCta: true,
     showCtaForDays: 30,
+
+    // specchio webinterface url
+    specchioWebinterface: 'http://v473.vanager.de:8080/SPECCHIO_Web_Interface',
+
+
+    // github url
     githubUrl: 'https://github.com/SPECCHIODB/SPECCHIO',
+    
+    // Build server
     jenkinsUrl: 'https://jenkins.winpat.ch/job/SPECCHIO',
+
     locales: {
       '/': {
         label: 'English',
