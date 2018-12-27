@@ -44,8 +44,8 @@ module.exports = {
     search: false,
     showCta: true,
     showCtaForDays: 30,
-    githubUrl: 'https://api.github.com/repos/rhwilr/vue-nestable',
-    jenkinsUrl: 'http://localhost:8080/job/SPECCHIO',
+    githubUrl: 'https://github.com/SPECCHIODB/SPECCHIO',
+    jenkinsUrl: 'https://jenkins.winpat.ch/job/SPECCHIO',
     locales: {
       '/': {
         label: 'English',
