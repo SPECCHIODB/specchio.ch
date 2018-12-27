@@ -53,7 +53,7 @@ We provide guides with detailed installation instructions, technical background 
 
 # Perfect for research!
 Programmatic access from e.g. Matlab or R.
-Check out the [tutorials](http://specchio.ch/programming_course.php)
+Check out the [tutorials](/programming-course/)
 and our extensive [API documentation](http://www.specchio.ch/doc/index.html).
 
 ![Architecture](./_img/Architecture.jpg)
