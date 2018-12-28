@@ -13,6 +13,7 @@
 
 <script>
 import moment from 'moment'
+import RELEASE from '@dynamic/release'
 
 export default {
   computed: {
@@ -24,7 +25,7 @@ export default {
       return moment(this.release.created_at).add(this.$site.themeConfig.showCtaForDays, 'days').isAfter()
     },
     release () {
-      return this.$page.release
+      return RELEASE
     },
     version () {
         return this.release.name

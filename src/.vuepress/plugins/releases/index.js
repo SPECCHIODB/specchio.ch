@@ -1,9 +1,7 @@
 const Vue = require('vue')
 const request = require('sync-request')
 
-let apiResonse = null
-
-async function getRelease (githubApiUrl) {
+function getRelease (githubApiUrl) {
   // reqeust the latest release from the github repository
   const res = request('GET', `${githubApiUrl}/releases/latest`, {
     headers: {
@@ -11,23 +9,26 @@ async function getRelease (githubApiUrl) {
     }
   }).getBody('utf8')
 
+  // save the response to the cache variable
   if (!res) {
-    apiResonse = {}
+    apiResonse = '{}'
   } else {
-    // save the response to the cache variable
-    apiResonse = JSON.parse(res)
+    apiResonse = res
   }
 
   return apiResonse
 }
 
-module.exports = (options, ctx) => {
-  return {  
-    extendPageData ($page) {
-      // use the cached response or request it from the api
-      const release = apiResonse || getRelease($page._context.themeConfig.githubApiUrl)
+module.exports = (options, context) => {
+  return {
+    clientDynamicModules() {
+      const { themeConfig } = require('../../config.js')
+      const release = getRelease(themeConfig.githubApiUrl)
 
-      $page.release = release
+      return {
+        name: 'release.js',
+        content: `module.exports = ${release}`
+      }
     }
   }
 }

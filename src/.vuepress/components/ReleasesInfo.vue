@@ -47,13 +47,13 @@
 <script>
 import moment from 'moment'
 import filesize from 'filesize'
+import RELEASE from '@dynamic/release'
 const md = require('markdown-it')()
-
 
 export default {
   computed: {
     release () {
-      return this.$page.release
+      return RELEASE
     },
     date () {
       if (!this.release.created_at) return
