@@ -11,10 +11,12 @@ async function getRelease (githubApiUrl) {
     }
   }).getBody('utf8')
 
-  if (!res) return {}
-
-  // save the response to the cache variable
-  apiResonse = JSON.parse(res)
+  if (!res) {
+    apiResonse = {}
+  } else {
+    // save the response to the cache variable
+    apiResonse = JSON.parse(res)
+  }
 
   return apiResonse
 }

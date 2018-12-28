@@ -56,6 +56,7 @@ export default {
       return this.$page.release
     },
     date () {
+      if (!this.release.created_at) return
       return moment(this.release.created_at).format('LL')
     },
     changelog () {
