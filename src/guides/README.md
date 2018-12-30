@@ -8,7 +8,7 @@ technical background information, operating instructions and a tutorial.
 
 <download-link
     name="SPECCHIO User Guide V3.3.0"
-    link="ftp://v473.vanager.de/user_guides/SPECCHIO_UserGuide.pdf"/>
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_UserGuide.pdf"/>
 
 
 ### SPECCHIO Matlab & R Guides
