@@ -14,19 +14,28 @@
         <li>
           <a :href="downloadClientLink">
             <font-awesome :icon="['fas', 'desktop']"/>
-            
+
             <span>
               specchio-installer.jar
-            </span>        
+            </span>
           </a>
         </li>
         <li>
           <a :href="downloadVMLink">
             <font-awesome :icon="['fas', 'box-open']"/>
-            
+
             <span>
               specchio-centos-7.6-vbox-x86_64.ova
-            </span>      
+            </span>
+          </a>
+        </li>
+        <li>
+          <a :href="downloadWebappLink">
+            <font-awesome :icon="['fas', 'server']"/>
+
+            <span>
+              webapp.war
+            </span>
           </a>
         </li>
       </ul>
@@ -34,14 +43,14 @@
       <!-- Changelog -->
       <template v-if="changelog">
         <div class="title is-3">Changelog</div>
-        <p 
+        <p
           class="release-changelog"
           v-html="changelog"/>
       </template>
 
     </div>
 
-  </div> 
+  </div>
 </template>
 
 <script>
@@ -70,6 +79,10 @@ export default {
     downloadVMLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
       return `${jenkinsUrl}/VM_Appliance/lastSuccessfulBuild/artifact/output-virtualbox-iso/specchio-centos-7.6-vbox-x86_64.ova`
+    },
+    downloadWebappLink () {
+      const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/src/webapp-3.3.0.war`
     }
   },
 
