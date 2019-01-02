@@ -2,7 +2,7 @@ const Vue = require('vue')
 const request = require('sync-request')
 
 function getRelease (githubApiUrl) {
-  // reqeust the latest release from the github repository
+  // Request the latest release from the github repository
   try {
     const res = request('GET', `${githubApiUrl}/releases/latest`, {
       headers: {
