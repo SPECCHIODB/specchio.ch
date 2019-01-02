@@ -82,7 +82,7 @@ export default {
     },
     downloadWebappLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
-      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/src/webapp-3.3.0.war`
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/libs/src/webapp-3.3.0.war`
     }
   },
 
