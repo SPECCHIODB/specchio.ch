@@ -14,19 +14,37 @@
         <li>
           <a :href="downloadClientLink">
             <font-awesome :icon="['fas', 'desktop']"/>
-            
+
             <span>
               specchio-installer.jar
-            </span>        
+            </span>
           </a>
         </li>
         <li>
           <a :href="downloadVMLink">
             <font-awesome :icon="['fas', 'box-open']"/>
-            
+
             <span>
               specchio-centos-7.6-vbox-x86_64.ova
-            </span>      
+            </span>
+          </a>
+        </li>
+        <li>
+          <a :href="downloadClientZipLink">
+            <font-awesome :icon="['fas', 'file-archive']"/>
+
+            <span>
+              specchio-client.zip
+            </span>
+          </a>
+        </li>
+        <li>
+          <a :href="downloadWebappZipLink">
+            <font-awesome :icon="['fas', 'file-archive']"/>
+
+            <span>
+              specchio-webapp.zip
+            </span>
           </a>
         </li>
       </ul>
@@ -34,14 +52,14 @@
       <!-- Changelog -->
       <template v-if="changelog">
         <div class="title is-3">Changelog</div>
-        <p 
+        <p
           class="release-changelog"
           v-html="changelog"/>
       </template>
 
     </div>
 
-  </div> 
+  </div>
 </template>
 
 <script>
@@ -70,6 +88,14 @@ export default {
     downloadVMLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
       return `${jenkinsUrl}/VM_Appliance/lastSuccessfulBuild/artifact/output-virtualbox-iso/specchio-centos-7.6-vbox-x86_64.ova`
+    },
+    downloadClientZipLink () {
+      const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/client/build/distributions/specchio-client.zip`
+    },
+    downloadWebappZipLink () {
+      const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/distributions/specchio-webapp.zip`
     }
   },
 
