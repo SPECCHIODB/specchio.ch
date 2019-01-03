@@ -30,11 +30,20 @@
           </a>
         </li>
         <li>
-          <a :href="downloadWebappLink">
-            <font-awesome :icon="['fas', 'server']"/>
+          <a :href="downloadClientZipLink">
+            <font-awesome :icon="['fas', 'file-archive']"/>
 
             <span>
-              webapp.war
+              specchio-client.zip
+            </span>
+          </a>
+        </li>
+        <li>
+          <a :href="downloadWebappZipLink">
+            <font-awesome :icon="['fas', 'file-archive']"/>
+
+            <span>
+              specchio-webapp.zip
             </span>
           </a>
         </li>
@@ -80,9 +89,13 @@ export default {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
       return `${jenkinsUrl}/VM_Appliance/lastSuccessfulBuild/artifact/output-virtualbox-iso/specchio-centos-7.6-vbox-x86_64.ova`
     },
-    downloadWebappLink () {
+    downloadClientZipLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
-      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/libs/src/webapp-3.3.0.war`
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/client/build/distributions/specchio-client.zip`
+    },
+    downloadWebappZipLink () {
+      const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/distributions/specchio-webapp.zip`
     }
   },
 

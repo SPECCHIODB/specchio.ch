@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faDatabase, faBook, faDownload, faDesktop, faBoxOpen, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faBoxOpen, faDatabase, faDesktop, faDownload, faFileArchive, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 export default ({
@@ -8,11 +8,12 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-  library.add(faDownload)
-  library.add(faDatabase)
   library.add(faBook)
-  library.add(faDesktop)
   library.add(faBoxOpen)
+  library.add(faDatabase)
+  library.add(faDesktop)
+  library.add(faDownload)
+  library.add(faFileArchive)
   library.add(faFilePdf)
   Vue.component('font-awesome', FontAwesomeIcon)
 }
