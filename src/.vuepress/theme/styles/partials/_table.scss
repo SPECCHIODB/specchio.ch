@@ -1,0 +1,19 @@
+table {
+  animation: flyintoright .4s backwards;
+  background: $white-bis;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 3px 2px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .2s ease-in-out;
+
+  width: 100%;
+  max-width: 84vw;
+  overflow: auto;
+  overflow-x: auto;
+}
+
+table:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
