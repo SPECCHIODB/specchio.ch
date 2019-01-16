@@ -2,8 +2,6 @@
 
 On this page you will find all Downloadables from the SPECCHIO project.
 
-      TODO: Update descriptions
-
 ### SPECCHIO Application Download 
 
 The SPECCHIO Application consists of a Java application plus a number of library
