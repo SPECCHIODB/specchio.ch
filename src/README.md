@@ -54,7 +54,7 @@ We provide guides with detailed installation instructions, technical background 
 # Perfect for research!
 Programmatic access from e.g. Matlab or R.
 Check out the [tutorials](/programming-course/)
-and our extensive [API documentation](https://specchio.ch/javadoc/).
+and our extensive [API documentation](https://specchio.winpat.ch/javadoc/).
 
 ![Architecture](./_img/Architecture.jpg)
 
