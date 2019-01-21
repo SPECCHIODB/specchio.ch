@@ -19,7 +19,7 @@
             </li>
             <li>
               <a
-                href="https://github.com/ahueni/SPECCHIO"
+                href="https://github.com/SPECCHIODB/SPECCHIO"
                 target="_blank"
                 rel="noopener noreferrer">
                 Github
