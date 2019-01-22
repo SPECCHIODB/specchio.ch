@@ -19,7 +19,7 @@ function getRelease (githubApiUrl) {
 module.exports = (options, context) => {
   return {
     clientDynamicModules() {
-      const { themeConfig } = require('../../config.js')
+      const { themeConfig } = require('../config.js')
       const release = getRelease(themeConfig.githubApiUrl)
 
       return {
