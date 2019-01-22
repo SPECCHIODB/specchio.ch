@@ -1,3 +1,11 @@
+const fs = require('fs')
+const backgroundsFolder = 'src/.vuepress/public/backgrounds'
+
+const backgroundImages = fs.readdirSync(backgroundsFolder)
+  .map(file => ({
+    src: `/backgrounds/${file}`
+  }))
+
 module.exports = {
   title: 'SPECCHIO',
   description: 'Spectral Information System',
@@ -20,26 +28,7 @@ module.exports = {
   ],
 
   themeConfig: {
-    backgroundImages: [
-      {
-        src: '/backgrounds/pexels-photo-286588-min.jpeg'
-      },
-      {
-        src: '/backgrounds/pexels-photo-235732-min.jpeg'
-      },
-      {
-        src: '/backgrounds/pexels-photo-753869-min.jpeg'
-      },
-      {
-        src: '/backgrounds/pexels-photo-207960-min.jpeg'
-      },
-      {
-        src: '/backgrounds/pexels-photo-920161-min.jpeg'
-      },
-      {
-        src: '/backgrounds/pexels-photo-1619540-min.jpeg'
-      }
-    ],
+    backgroundImages,
     search: false,
     showCta: true,
     showCtaForDays: 30,
@@ -49,7 +38,7 @@ module.exports = {
 
     // github api url
     githubApiUrl: 'https://api.github.com/repos/SPECCHIODB/SPECCHIO',
-    
+
     // Build server
     jenkinsUrl: 'https://jenkins.winpat.ch/job',
 
