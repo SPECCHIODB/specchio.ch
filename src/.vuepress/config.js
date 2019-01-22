@@ -29,7 +29,12 @@ module.exports = {
 
   themeConfig: {
     backgroundImages,
+
+    // Set this to true to add a search field to the header of the website
     search: false,
+
+    // The Cta will add a notification at the top of the website if a new
+    // version of the website is released.
     showCta: true,
     showCtaForDays: 30,
 
