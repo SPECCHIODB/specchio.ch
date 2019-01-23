@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "filesize": "^4.0.0",
-    "moment": "^2.23.0",
-    "vue-tweet-embed": "^2.1.2"
+    "moment": "^2.24.0",
+    "vue-tweet-embed": "^2.2.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
