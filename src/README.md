@@ -47,7 +47,6 @@ We provide guides with detailed installation instructions, technical background 
 
 
 
-
 <!-- Teaser -->
 <div class="intro column is-8 is-offset-2">
 
@@ -60,10 +59,6 @@ and our extensive [API documentation](https://specchio.winpat.ch/javadoc/).
 
 </div>
 
-
-::: slot header
-# Here might be a page title
-:::
 
 ::: slot twitter
 <!-- Tweets -->
