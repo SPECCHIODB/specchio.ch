@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Timeline from 'vue-tweet-embed/timeline'
+import { Timeline } from 'vue-tweet-embed'
 
 export default {
   components: {
