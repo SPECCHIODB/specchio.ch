@@ -3,5 +3,6 @@
 }
 
 .feature-card {
-  flex-grow: 1;
+  flex-direction: column;
+  cursor: pointer;
 }

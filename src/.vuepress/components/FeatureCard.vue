@@ -1,35 +1,16 @@
 <template>
-  <!-- Render Relative Link -->
-  <router-link 
-    v-if="!absolute"
-    :to="to">
-    <div class="card is-shady feature-card">
-      <div class="card-image has-text-centered">
-        <font-awesome :icon="icon"/>
-      </div>
-      <div class="card-content">
-        <div class="content">
-          <slot/>
-        </div>
+  <div
+    class="card is-shady feature-card"
+    @click="navigation">
+    <div class="card-image has-text-centered">
+      <font-awesome :icon="icon"/>
+    </div>
+    <div class="card-content">
+      <div class="content">
+        <slot/>
       </div>
     </div>
-  </router-link>
-
-  <!-- Render Absolute Link -->
-  <a 
-    v-else
-    :href="to">
-    <div class="card is-shady feature-card">
-      <div class="card-image has-text-centered">
-        <font-awesome :icon="icon"/>
-      </div>
-      <div class="card-content">
-        <div class="content">
-          <slot/>
-        </div>
-      </div>
-    </div>
-  </a>
+  </div>
 </template>
 
 <script>
@@ -50,6 +31,16 @@ export default {
       required: false,
       default: null
     },
+  },
+
+  methods: {
+    navigation () {
+      if (this.absolute) {
+        return window.location.href = this.to
+      }
+
+      return this.$router.push(this.to)
+    }
   }
 }
 </script>
