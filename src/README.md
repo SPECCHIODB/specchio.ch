@@ -50,7 +50,7 @@ We provide guides with detailed installation instructions, technical background 
 <!-- Teaser -->
 <div class="intro column is-8 is-offset-2">
 
-# Perfect for research!
+## Perfect for research!
 Programmatic access from e.g. Matlab or R.
 Check out the [tutorials](/programming-course/)
 and our extensive [API documentation](https://specchio.winpat.ch/javadoc/).
