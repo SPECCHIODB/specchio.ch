@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "email-obfuscate": "0.0.6",
     "filesize": "^4.0.0",
     "moment": "^2.24.0",
     "vue-tweet-embed": "^2.2.1"

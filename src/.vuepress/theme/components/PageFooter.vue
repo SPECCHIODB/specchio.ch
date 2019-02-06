@@ -58,7 +58,10 @@
             </a>
           </p>
           <p>
-            <a href="mailto:admin@specchio.ch">admin@specchio.ch</a>
+            <email-address
+              name="admin" 
+              domain="specchio" 
+              tld="ch"/>
           </p>
         </div>
 
@@ -126,6 +129,16 @@
 
 <script>
 export default {
+  data () {
+    return {
+       showEmail: false
+    }
+  },
 
+  mounted() {
+    setTimeout(() => {
+      this.showEmail = true
+    }, 1000)
+  }
 }
 </script>
