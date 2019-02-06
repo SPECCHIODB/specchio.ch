@@ -11,4 +11,16 @@
   .twitter-feed {
     flex-grow: 0.3;
   }
+
+  .twitter-gdpr {
+    text-align: center;
+    
+    &, h3, a {
+      color: white;
+    }
+    
+    a {
+      text-decoration: underline;
+    }
+  }
 }

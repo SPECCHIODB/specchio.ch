@@ -33,6 +33,9 @@ module.exports = {
     // Set this to true to add a search field to the header of the website
     search: false,
 
+    // Hide twitter feed until user agreed to gdpr.
+    forceGdprForTwitterFeed: true,
+
     // The Cta will add a notification at the top of the website if a new
     // version of the website is released.
     showCta: true,
