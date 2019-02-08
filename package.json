@@ -13,12 +13,12 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/vue-fontawesome": "^0.1.5",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.36",
-    "bulma": "^0.7.2",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.37",
+    "bulma": "^0.7.4",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "sync-request": "^6.0.0",
-    "vuepress": "^1.0.0-alpha.36"
+    "vuepress": "^1.0.0-alpha.37"
   },
   "scripts": {
     "dev": "vuepress dev src",
