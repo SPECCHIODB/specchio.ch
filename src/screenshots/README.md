@@ -1,3 +1,7 @@
+---
+title: Screenshots
+---
+
 # Metadata Editor
 A powerful editing of spectra metadata. Productivity boost by the group update
 concept.
