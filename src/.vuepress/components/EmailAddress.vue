@@ -27,8 +27,6 @@ export default {
   },
 
   mounted () {
-    console.log(this.$refs.email)
-
     EmailObfuscate(this.$refs.email, {
       name: this.name,
       domain: this.domain,
