@@ -47,6 +47,15 @@
             </span>
           </a>
         </li>
+        <li>
+          <a :href="downloadJavadocLink">
+            <font-awesome :icon="['fas', 'book']"/>
+
+            <span>
+              javadoc.zip
+            </span>
+          </a>
+        </li>
       </ul>
 
       <!-- Changelog -->
@@ -96,6 +105,10 @@ export default {
     downloadWebappZipLink () {
       const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
       return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/src/webapp/build/distributions/specchio-webapp.zip`
+    },
+    downloadJavadocLink () {
+      const jenkinsUrl = this.$site.themeConfig.jenkinsUrl
+      return `${jenkinsUrl}/SPECCHIO/lastSuccessfulBuild/artifact/build/docs/javadoc.zip`
     }
   },
 
