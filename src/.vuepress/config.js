@@ -48,7 +48,7 @@ module.exports = {
     githubApiUrl: 'https://api.github.com/repos/SPECCHIODB/SPECCHIO',
 
     // Build server
-    jenkinsUrl: 'https://jenkins.winpat.ch/job',
+    jenkinsUrl: 'https://jenkins.specchio.ch/job',
 
     locales: {
       '/': {

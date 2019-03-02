@@ -61,7 +61,7 @@ there are also guides on how to access SPECCHIO directly from Matlab and R.
 ## Perfect for research!
 Programmatic access from e.g. Matlab or R.
 Check out the [tutorials](/programming-course/)
-and our extensive [API documentation](https://specchio.winpat.ch/javadoc/).
+and our extensive [API documentation](https://specchio.ch/javadoc/).
 
 ![Architecture](./_img/Architecture.jpg)
 
