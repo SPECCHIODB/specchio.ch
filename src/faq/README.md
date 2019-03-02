@@ -37,7 +37,7 @@ in Matlab, as the e.g. csvread expects numeric input only. This can be solved by
 using an adapted reading routine for CSV files.
 
 
-## What File Formats are supported?
+## Are my HR-1024 files supported?
 
 Currently, the following restriction applies: the spectrum must be acquired
 using the PDA software. Reason is that the laptop generated files have a
@@ -55,6 +55,9 @@ result in differing band combinations from the same instrument. This is
 currently not supported in SPECCHIO. If you have a useful use case for the
 overlap cutting option, please provide us with the information on how to get the
 new bands based on instrument configuration data contained in the spectral file.
+
+
+## What File Formats are supported?
 
 This table lists all spectral file formats currently supported by the SPECCHIO
 file readers:
