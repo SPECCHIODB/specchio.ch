@@ -17,6 +17,6 @@ module.exports = [
   },
   {
     text: 'Api',
-    link: 'https://specchio.specchio.ch/javadoc/'
+    link: 'https://specchio.ch/javadoc/'
   }
 ]
