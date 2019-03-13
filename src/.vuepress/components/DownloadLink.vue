@@ -6,7 +6,7 @@
       rel="noopener noreferrer">
 
       <font-awesome
-        :icon="['fas', 'file-pdf']"/>
+        :icon="['fas', icon]"/>
       
       <span>
         {{ name }}
@@ -28,6 +28,11 @@ export default {
       type: String,
       require: true,
       default: null
+    },
+    icon: {
+      type: String,
+      require: true,
+      default: 'file-pdf'
     }
   }
 }

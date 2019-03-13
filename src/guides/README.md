@@ -36,4 +36,7 @@ See [here](/programming-course/).
     name="SPECCHIO_Tutorial.pdf"
     link="https://github.com/SPECCHIODB/Guides/blob/master/SPECCHIO_Tutorial.pdf"/>
 
-[tutorial-dataset.zip](/guides/assets/tutorial-dataset.zip)
+<download-link
+    name="tutorial-dataset.zip"
+    icon="file-archive"
+    link="/guides/assets/tutorial-dataset.zip"/>
