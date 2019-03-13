@@ -29,3 +29,11 @@ directly access SPECCHIO from Matlab and R.
 
 There are also a few courses that teach you how to programm with SPECCHIO.
 See [here](/programming-course/).
+
+### Tutorial
+
+<download-link
+    name="SPECCHIO_Tutorial.pdf"
+    link="https://github.com/SPECCHIODB/Guides/blob/master/SPECCHIO_Tutorial.pdf"/>
+
+[tutorial-dataset.zip](/guides/assets/tutorial-dataset.zip)
