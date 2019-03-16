@@ -17,6 +17,26 @@ The SPECCHIO Virtualbox is a complete SPECCHIO server and client installed under
 a virtual CentOS 6.4 or CentOS 7 installation using 
 [Oracle Virtualbox](https://www.virtualbox.org/). 
 
+<!-- Warning about production use -->
+<div class="message is-warning">
+  <div class="message-body">
+    
+**Disclaimer:** This VirtualMachine is **NOT** intended for a production 
+environment.
+
+If you intend to set up a public installation of the SPECCHIO Database, we 
+strongly recommend that you set up a dedicated server with proper security measures in place.
+
+  </div>
+</div>
+
+
+<!-- Login information for VM -->
+To Log into the VM use the following credentials:
+
+    username: specchio
+    password: specchio
+
 #### Intended audience
 
 SPECCHIO users who want to run the full system locally, either on their personal
