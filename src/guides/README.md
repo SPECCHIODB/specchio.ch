@@ -1,6 +1,18 @@
 # Guides
 
-### SPECCHIO User
+### SPECCHIO Release Notes
+
+The SPECCHIO Release Notes give information about the installation of the SPECCHIO client 
+and how to connect to the SPECCHIO online database.
+
+
+<download-link
+    name="SPECCHIO Release Notes V3.3.0"
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_ReleaseNotes.pdf"/>    
+
+
+
+### SPECCHIO User Guide
 
 The SPECCHIO User Guides are numbered in accordance with the SPECCHIO
 application versions. The User Guide contains: installation instructions,
@@ -9,7 +21,7 @@ technical background information, operating instructions and a tutorial.
 <download-link
     name="SPECCHIO User Guide V3.3.0"
     link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_UserGuide.pdf"/>
-
+    
 
 ### SPECCHIO Matlab & R Guides
 
