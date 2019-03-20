@@ -39,8 +39,16 @@ directly access SPECCHIO from Matlab and R.
 
 ### SPECCHIO Programming Course
 
-There are also a few courses that teach you how to programm with SPECCHIO.
+There are also a few courses that teach you how to program with SPECCHIO.
 See [here](/programming-course/).
+
+### SPECCHIO API Use Cases
+
+A collection of use cases showing the use of the SPECCHIO API .
+
+<download-link
+    name="SPECCHIO API Use Cases"
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_API_Examples.pdf"/>
 
 ### Tutorial
 
