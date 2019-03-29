@@ -81,7 +81,7 @@
             </li>
            <li>
               <a
-                href="https://specchio.ch/licences/SPECCHIO_UZH_Data_License_V2.pdf"
+                href="https://github.com/SPECCHIODB/Guides/raw/master/Data_License.pdf"
                 target="_blank"
                 rel="noopener noreferrer">
                 Online Database Licence
