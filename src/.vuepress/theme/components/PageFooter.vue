@@ -64,9 +64,26 @@
               tld="ch"/>
           </p>
         </div>
+        
+        <!-- Citation and Licence -->
+        <div class="column is-4">
+          <h2>
+            <strong>Links</strong>
+          </h2>
+          <ul>
+           <li>
+              <a
+                href="https://specchio.ch/citation/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Citation
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <!-- Other spectral databases -->
-        <div class="column is-4">
+        <div class="column is-5">
           <h2>
             <strong>Other spectral databases</strong>
           </h2>
