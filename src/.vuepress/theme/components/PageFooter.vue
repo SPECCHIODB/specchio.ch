@@ -41,6 +41,14 @@
                 SPECCHIO Web Interface
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.researchgate.net/project/SPECCHIO-Spectral-Information-System"
+                target="_blank"
+                rel="noopener noreferrer">
+                SPECCHIO on ResearchGate
+              </a>
+            </li>            
           </ul>
         </div>
 

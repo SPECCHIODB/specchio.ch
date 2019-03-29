@@ -9,6 +9,11 @@ If you publish a work that uses the SPECCHIO database and/or data contained ther
 Hueni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M., Itten, K., 2009. The spectral database SPECCHIO for improved long term usability and data sharing. Computers & Geosciences.
                   DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2008.03.015">10.1016/j.cageo.2008.03.015
 
+
+### SPECCHIO on ResearchGate
+
+Visit our project page on ResearchGate: <a href="https://www.researchgate.net/project/SPECCHIO-Spectral-Information-System">SPECCHIO Project</a>
+
 ### Further Reading 
 
 For more information on the technical setup of SPECCHIO 
@@ -28,3 +33,15 @@ H&uuml;ni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M. &amp; Itten, K. (200
 
 H&uuml;ni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M. &amp; Itten, K. (2007). <u><a href="http://www.zora.uzh.ch/77969/1/2007_HueniA_P98_Kopie_.pdf">2nd Generation of RSL's Spectrum Database &quot;SPECCHIO&quot;</a></u>. ISMPSRS, Davos, Switzerland.      
       
+
+
+For information about the origins and first version of SPECCHIO refer to the following papers:
+
+Piesbergen, J., Schaepman, M.E., & Vckovski, A. (1996). Objekt-relationale Datenbanktechnologie f&uuml;r Geoinformatik-Anwendungen. Geoprocessing Series (pp. 21-26). Zurich: GIUZ, Univ. Zurich
+
+Bojinski, S., Schaepman, M.E., Schl&auml;pfer, D., & Itten, K. (2000). A Web-accessible Spectral Database for the Administration of Heterogeneous Campaign Data. In F. van der Meer, A. Skidmore & W. Bakker (Eds.), 2nd EARSeL Workshop on Imaging Spectroscopy (pp. CD-ROM). Enschede: EARSeL
+
+Bojinski, S., Schaepman, M.E., Schl&auml;pfer, D., & Itten, K. (2002). SPECCHIO: a Web-accessible database for the administration and storage of heterogeneous spectral data. ISPRS Journal of Photogrammetry and Remote Sensing, 57, 204-211
+
+Bojinski, S., Schaepman, M.E., Schl&auml;pfer, D., & Itten, K.I. (2003). SPECCHIO: a spectrum database for remote sensing applications. Computers & Geosciences, 29, 27-38
+
