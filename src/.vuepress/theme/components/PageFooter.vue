@@ -4,7 +4,7 @@
       <div class="columns">
         
         <!-- Links -->
-        <div class="column is-3 is-offset-2">
+        <div class="column is-3 is-offset-1">
           <h2>
             <strong>Links</strong>
           </h2>
@@ -79,6 +79,14 @@
                 Citation
               </a>
             </li>
+           <li>
+              <a
+                href="https://specchio.ch/licences/SPECCHIO_UZH_Data_License_V2.pdf"
+                target="_blank"
+                rel="noopener noreferrer">
+                Online Database Licence
+              </a>
+            </li>            
           </ul>
         </div>
 
