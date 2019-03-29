@@ -4,7 +4,7 @@
       <div class="columns">
         
         <!-- Links -->
-        <div class="column is-3 is-offset-1">
+        <div class="column is-3">
           <h2>
             <strong>Links</strong>
           </h2>
