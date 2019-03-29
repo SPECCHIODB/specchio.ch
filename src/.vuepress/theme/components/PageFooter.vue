@@ -73,10 +73,10 @@
           <ul>
            <li>
               <a
-                href="https://specchio.ch/citation/"
+                href="/citations/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Citation
+                Citations
               </a>
             </li>
            <li>
