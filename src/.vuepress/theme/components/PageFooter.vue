@@ -66,9 +66,9 @@
         </div>
         
         <!-- Citation and Licence -->
-        <div class="column is-4">
+        <div class="column is-3">
           <h2>
-            <strong>Links</strong>
+            <strong>Citation and Licence</strong>
           </h2>
           <ul>
            <li>
@@ -83,7 +83,7 @@
         </div>
 
         <!-- Other spectral databases -->
-        <div class="column is-5">
+        <div class="column is-4">
           <h2>
             <strong>Other spectral databases</strong>
           </h2>
