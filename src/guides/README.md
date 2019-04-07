@@ -28,9 +28,9 @@ The SPECCHIO virtual machine (VM) Guides are packaged with every SPECCHIO VM.
 They are describe the installation and use of the SPECCHIO VM. 
 
 <download-link
-    name="SPECCHIO Virtual Box (to be updated for new version)"
+    name="SPECCHIO Virtual Box" 
     link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_VM.pdf"/>
-    
+
 
 The upgrade guide describes how to migrate from older SPECCHIO VMs to the new ones.
 <download-link
