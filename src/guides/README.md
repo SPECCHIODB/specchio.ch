@@ -21,7 +21,21 @@ technical background information, operating instructions and a tutorial.
 <download-link
     name="SPECCHIO User Guide V3.3.0"
     link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_UserGuide.pdf"/>
+
+### SPECCHIO VM Guides
+
+The SPECCHIO virtual machine (VM) Guides are packaged with every SPECCHIO VM.
+They are describe the installation and use of the SPECCHIO VM. 
+
+<download-link
+    name="SPECCHIO Virtual Box (to be updated for new version)"
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_VM.pdf"/>
     
+The upgrade guide describes how to migrate from older SPECCHIO VMs to the new ones.
+<download-link
+    name="SPECCHIO Virtual Machine Upgrade"
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_VMUpgradeGuide.pdf"/>    
+        
 
 ### SPECCHIO Matlab & R Guides
 
