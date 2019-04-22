@@ -59,6 +59,7 @@ there are also guides on how to access SPECCHIO directly from Matlab and R.
 <div class="intro column is-8 is-offset-2">
 
 ## Perfect for research!
+Learn more by reading our leaflet: [SPECCHIO Leaflet](ftp://v473.vanager.de/Flyers/SPECCHIO Leaflet V3.3.pdf)
 Programmatic access from e.g. Matlab or R.
 Check out the [tutorials](/programming-course/)
 and our extensive [API documentation](https://specchio.ch/javadoc/).
