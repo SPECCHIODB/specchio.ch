@@ -60,7 +60,7 @@ there are also guides on how to access SPECCHIO directly from Matlab and R.
 
 ## Perfect for research!
 Learn more by reading our leaflet: 
-download-link
+<download-link
     name="SPECCHIO Leaflet"
     link="ftp://v473.vanager.de/Flyers/SPECCHIO Leaflet V3.3.pdf"/>
 Programmatic access from e.g. Matlab or R.
