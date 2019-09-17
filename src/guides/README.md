@@ -44,12 +44,12 @@ The SPECCHIO Matlab and R Guides contain instructions and examples on how to
 directly access SPECCHIO from Matlab and R. 
 
 <download-link
-    name="SPECCHIO_Matlab_Guide_V3.1.1"
-    link="ftp://v473.vanager.de/user_guides/SPECCHIO_Matlab_Guide_V3.1.1.pdf"/>
+    name="SPECCHIO_Matlab_Guide_V3.3.0"
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_Matlab_Guide.pdf"/>
 
 <download-link
-    name="SPECCHIO_R_Guide_V3.1.0"
-    link="ftp://v473.vanager.de/user_guides/SPECCHIO_R_Guide_V3.1.0.pdf"/>
+    name="SPECCHIO_R_Guide_V3.3.0"
+    link="https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_R_Guide.pdf"/>
 
 
 ### SPECCHIO Programming Course
