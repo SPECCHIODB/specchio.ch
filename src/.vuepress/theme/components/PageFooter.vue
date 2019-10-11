@@ -67,8 +67,8 @@
           </p>
           <p>
             <email-address
-              name="admin" 
-              domain="specchio" 
+              name="specchioadmin" 
+              domain="geo.uzh" 
               tld="ch"/>
           </p>
         </div>
