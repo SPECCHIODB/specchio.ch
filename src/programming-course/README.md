@@ -10,7 +10,7 @@ SPECCHIO Programming Course Material is provided via the links below.
  - [Presentation: The Spectral Information System SPECCHIO - Architecture and Concepts ](ftp://v473.vanager.de/ProgrammingCourse/The_Spectral_Information_System_SPECCHIO_V3.pdf)
  - [Presentation: Matlab accessing SPECCHIO - Now including Spatial Operations](ftp://v473.vanager.de/ProgrammingCourse/Matlab_accessing_SPECCHIO_V3.pdf)
  - [Presentation: R accessing SPECCHIO](ftp://v473.vanager.de/ProgrammingCourse/R_accessing_SPECCHIO_V3.pdf)
- - [Presentation: Python_accessing_SPECCHIO](ftp://v473.vanager.de/ProgrammingCourse/Python_accessing_SPECCHIO_V1.ppt.pdf)
+ - [Presentation: Python_accessing_SPECCHIO](https://github.com/SPECCHIODB/Guides/blob/master/Python_accessing_SPECCHIO.pdf)
  - [Input File: spectra.csv](ftp://v473.vanager.de/ProgrammingCourse/spectra.csv)
  - [Input File: metadata.csv](ftp://v473.vanager.de/ProgrammingCourse/metadata.csv)
 
