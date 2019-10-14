@@ -22,8 +22,8 @@ are available). The reason why you cannot insert your own instruments is due to
 the database rights that keep SPECCHIO in its relational, non-redundant state.
 If you want your instrument added, send an email to
 <email-address
-  name="admin" 
-  domain="specchio" 
+  name="specchioadmin" 
+  domain="geo.uzh" 
   tld="ch"/>
 with an HR-1024 example file
 attached; also specify when the instrument was calibrated. We will add your
@@ -45,8 +45,8 @@ different file format, involving capturing dates formatted to the settings of
 your laptop. If you think you need to read laptop generated files, drop an email
 to 
 <email-address
-  name="admin" 
-  domain="specchio" 
+  name="specchioadmin" 
+  domain="geo.uzh" 
   tld="ch"/>
 including a version of your
 output file and we'll see what we can do about a generic reader. Furthermore,
