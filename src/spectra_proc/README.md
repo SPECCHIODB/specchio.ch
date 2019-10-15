@@ -40,9 +40,9 @@ SPECCHIO and coding their algorithms in a higher level language.
 
 ## SpectraProc Downloads
 
-For details on installing and running SpectraProc please see [SpectraProcUserGuide_V02.pdf](ftp://v473.vanager.de/user_guides/SpectraProcUserGuide_V02.pdf)
+For details on installing and running SpectraProc please see [SpectraProcUserGuide_V02.pdf](https://github.com/SPECCHIODB/Guides/blob/master/SpectraProcUserGuide_V02.pdf)
 
-The SpectraProc installation package can be downloaded here: [SpectraProc V1.2.zip](ftp://v473.vanager.de/SpectraProc/SpectraProc%20V1.2.zip)
+The SpectraProc installation package can be downloaded here: [SpectraProc V1.2.zip](/guides/assets/SpectraProc_V1.2.zip)
 
 
 ## SpectraProc GUI Screenshot
