@@ -35,7 +35,7 @@
             </li>
             <li>
               <a
-                href="http://v473.vanager.de:8080/SPECCHIO_Web_Interface"
+                href="http://sc22.geo.uzh.ch:8080/SPECCHIO_Web_Interface"
                 target="_blank"
                 rel="noopener noreferrer">
                 SPECCHIO Web Interface
@@ -67,8 +67,8 @@
           </p>
           <p>
             <email-address
-              name="admin" 
-              domain="specchio" 
+              name="specchioadmin" 
+              domain="geo.uzh" 
               tld="ch"/>
           </p>
         </div>

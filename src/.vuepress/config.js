@@ -42,7 +42,7 @@ module.exports = {
     showCtaForDays: 30,
 
     // specchio webinterface url
-    specchioWebinterface: 'http://v473.vanager.de:8080/SPECCHIO_Web_Interface',
+    specchioWebinterface: 'http://sc22.geo.uzh.ch:8080/SPECCHIO_Web_Interface',
 
     // github api url
     githubApiUrl: 'https://api.github.com/repos/SPECCHIODB/SPECCHIO',
