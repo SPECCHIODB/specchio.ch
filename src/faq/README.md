@@ -2,7 +2,7 @@
 
 ## Why is my connection to the online database failing?
 
-The SPECCHIO online database is accessible on db.specchio.ch via port 4406. If
+The SPECCHIO online database is accessible on sc22.geo.uzh.ch via port 443. If
 your firewall of your computer or institute blocks outgoing traffic to this
 server and port, then a connection will fail. Test the connection to the
 db.specchio.ch by using ping on the command line or terminal:
@@ -11,6 +11,20 @@ db.specchio.ch by using ping on the command line or terminal:
 
 If the packets are lost, you probably got a firewall problem. Try to configure
 your firewall accordingly or talk to your system administrator.
+
+
+## I cannot connect to the database due to a certificate error (13 FEB 2020)
+
+Java version 8, build 1.8.0_241-b07 is apparently causing problems with the certificate with the current client.
+If an error similar to this happens, please try to downgrade to build version 212.
+
+![Certificate_error](./_img/certificate_problem.jpg)
+
+The current client runs well with this version of Java:
+
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_212-b03)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.212-b03, mixed mode)
 
 
 ## I've uploaded HR-1024 files. Why are the wavelengths wrong when I export the data?
