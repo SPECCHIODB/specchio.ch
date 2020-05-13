@@ -6,11 +6,11 @@ On this page you will find all Downloadables from the SPECCHIO project.
 
 The SPECCHIO Application consists of a Java application plus a number of library
 files. 
-We recommend using the multi-platform installer: specchio-installer.jar.
+We recommend using the multi-platform installer: [specchio-installer.jar][https://jenkins.specchio.ch/job/SPECCHIO/lastSuccessfulBuild/artifact/src/client/build/distributions/specchio-installer.jar].
 
 The SPECCHIO client and server binaries are also available as ZIP archives. 
-Details about the features contained in
-the different versions can be found in the respective 
+
+Details about the operation of SPECCHIO can be found in the respective 
 [User Guides](/guides/).
 
 
@@ -19,6 +19,9 @@ the different versions can be found in the respective
 The SPECCHIO Virtualbox is a complete SPECCHIO server and client installed under
 a virtual CentOS 7 installation using 
 [Oracle Virtualbox](https://www.virtualbox.org/). 
+
+Please read to [SPECCHIO VM]  [https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_VM.pdf.] guide to learn more about installation and use. 
+
 
 <!-- Warning about production use -->
 <div class="message is-warning">
