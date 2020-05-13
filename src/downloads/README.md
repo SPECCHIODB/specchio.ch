@@ -20,7 +20,7 @@ The SPECCHIO Virtualbox is a complete SPECCHIO server and client installed under
 a virtual CentOS 7 installation using 
 [Oracle Virtualbox](https://www.virtualbox.org/). 
 
-Please read the [SPECCHIO VM] (https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_VM.pdf) guide to learn more about installation and use. 
+Please read the [SPECCHIO VM](https://github.com/SPECCHIODB/Guides/raw/master/SPECCHIO_VM.pdf) guide to learn more about installation and use. 
 
 
 <!-- Warning about production use -->
