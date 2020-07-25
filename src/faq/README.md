@@ -32,6 +32,16 @@ New Checks on Trust Anchor Certificates: Trust anchor certificates must include 
 
 We hope to deliver a SPECCHIO version in the near future that can cope with this new security constraint.
 
+Circumventing Solution: use this if you cannot downgrade your Java version.
+
+Set your JVM to use this option: -Djdk.security.allowNonCaAnchor=true
+
+Under UNIX, this can be done on the command line like so before starting the SPECCHIO client within the same shell:
+
+export _JAVA_OPTIONS="-Djdk.security.allowNonCaAnchor=true"
+java -jar specchio-client.jar
+
+
 
 ## I've uploaded HR-1024 files. Why are the wavelengths wrong when I export the data?
 
