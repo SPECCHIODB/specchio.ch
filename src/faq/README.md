@@ -26,6 +26,12 @@ openjdk version "1.8.0_212"
 OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_212-b03)
 OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.212-b03, mixed mode)
 
+25 JUL 2020:
+Update on this issue: the problem is caused by a new feature introduced in Java release 8 241.
+New Checks on Trust Anchor Certificates: Trust anchor certificates must include a Basic Constraints extension with the cA field set to true.
+
+We hope to deliver a SPECCHIO version in the near future that can cope with this new security constraint.
+
 
 ## I've uploaded HR-1024 files. Why are the wavelengths wrong when I export the data?
 
