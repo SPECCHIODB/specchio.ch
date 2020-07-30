@@ -41,6 +41,14 @@ Under UNIX, this can be done on the command line like so before starting the SPE
 export _JAVA_OPTIONS="-Djdk.security.allowNonCaAnchor=true"
 java -jar specchio-client.jar
 
+30 JUL 2020: Additional Hack if you already got an account and your Java version got updated:
+
+- The certificate error is only happening when using encrypted data transmissions
+- To avoid this, open your db_config file in a text editor and add a new connection using http instead of https, changing also the port number to 8080 like so:
+
+https, sc22.geo.uzh.ch, 443, /specchio_service, user_name, password, jdbc/specchio_prod
+http, sc22.geo.uzh.ch, 8080, /specchio_service, user_name, password, jdbc/specchio_prod
+
 
 
 ## I've uploaded HR-1024 files. Why are the wavelengths wrong when I export the data?
