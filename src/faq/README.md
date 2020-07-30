@@ -34,12 +34,12 @@ We hope to deliver a SPECCHIO version in the near future that can cope with this
 
 Circumventing Solution: use this if you cannot downgrade your Java version.
 
-Set your JVM to use this option: -Djdk.security.allowNonCaAnchor=true
+- Set your JVM to use this option: -Djdk.security.allowNonCaAnchor=true
 
-Under UNIX, this can be done on the command line like so before starting the SPECCHIO client within the same shell:
+- Under UNIX, this can be done on the command line like so before starting the SPECCHIO client within the same shell:
 
-export _JAVA_OPTIONS="-Djdk.security.allowNonCaAnchor=true"
-java -jar specchio-client.jar
+	export _JAVA_OPTIONS="-Djdk.security.allowNonCaAnchor=true"
+	java -jar specchio-client.jar
 
 30 JUL 2020: Additional Hack if you already got an account and your Java version got updated:
 
@@ -47,6 +47,7 @@ java -jar specchio-client.jar
 - To avoid this, open your db_config file in a text editor and add a new connection using http instead of https, changing also the port number to 8080 like so:
 
 https, sc22.geo.uzh.ch, 443, /specchio_service, user_name, password, jdbc/specchio_prod
+
 http, sc22.geo.uzh.ch, 8080, /specchio_service, user_name, password, jdbc/specchio_prod
 
 
