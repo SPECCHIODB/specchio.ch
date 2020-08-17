@@ -39,6 +39,7 @@ Circumventing Solution: use this if you cannot downgrade your Java version.
 - Under UNIX, this can be done on the command line like so before starting the SPECCHIO client within the same shell:
 
 	export _JAVA_OPTIONS="-Djdk.security.allowNonCaAnchor=true"
+	
 	java -jar specchio-client.jar
 
 30 JUL 2020: Additional Hack if you already got an account and your Java version got updated:
