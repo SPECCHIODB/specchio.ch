@@ -26,7 +26,7 @@ openjdk version "1.8.0_212"
 OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_212-b03)
 OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.212-b03, mixed mode)
 
-25 JUL 2020:
+### 25 JUL 2020:
 Update on this issue: the problem is caused by a new feature introduced in Java release 8 241.
 New Checks on Trust Anchor Certificates: Trust anchor certificates must include a Basic Constraints extension with the cA field set to true.
 
@@ -42,7 +42,7 @@ Circumventing Solution: use this if you cannot downgrade your Java version.
 	
 	java -jar specchio-client.jar
 
-30 JUL 2020: Additional Hack if you already got an account and your Java version got updated:
+### 30 JUL 2020: Additional Hack if you already got an account and your Java version got updated:
 
 - The certificate error is only happening when using encrypted data transmissions
 - To avoid this, open your db_config file in a text editor and add a new connection using http instead of https, changing also the port number to 8080 like so:
@@ -50,6 +50,9 @@ Circumventing Solution: use this if you cannot downgrade your Java version.
 https, sc22.geo.uzh.ch, 443, /specchio_service, user_name, password, jdbc/specchio_prod
 
 http, sc22.geo.uzh.ch, 8080, /specchio_service, user_name, password, jdbc/specchio_prod
+
+### 23 AUG: 
+Please update your clients; the latest release includes the above java option included in the scripts to start SPECCHIO.
 
 
 
