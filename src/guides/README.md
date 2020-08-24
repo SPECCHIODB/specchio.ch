@@ -57,6 +57,12 @@ directly access SPECCHIO from Matlab and R.
 There are also a few courses that teach you how to program with SPECCHIO.
 See [here](/programming-course/).
 
+
+### SPECCHIO Videos
+
+Example of accessing SPECCHIO from Matlab using the API: Watch on [Youtube](https://www.youtube.com/watch?v=Y39A4Tj_kwk).
+
+
 ### SPECCHIO API Use Cases
 
 A collection of use cases showing the use of the SPECCHIO API .
