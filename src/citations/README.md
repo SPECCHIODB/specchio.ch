@@ -21,12 +21,11 @@ Visit our project page on ResearchGate: <a href="https://www.researchgate.net/pr
 For more information on the technical setup of SPECCHIO 
 please refer also to the following papers:
 
-Hueni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M., Itten, K., 2009. The spectral database SPECCHIO for improved long term usability and data sharing. Computers & Geosciences.
-                  DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2008.03.015">10.1016/j.cageo.2008.03.015
-
-
 Hueni, A., Malthus, T., Kneubuehler, M. and Schaepman, M. (2011). "Data Exchange between distributed Spectral Databases." Computers & Geosciences 37: 861–873. <br>
                   DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2010.12.009">10.1016/j.cageo.2010.12.009</a>.
+
+Hueni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M., Itten, K., 2009. The spectral database SPECCHIO for improved long term usability and data sharing. Computers & Geosciences.
+                  DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2008.03.015">10.1016/j.cageo.2008.03.015
                   
 Hueni, A., Kneubuehler, M., Nieke, J., Itten, K., 2009. <u><a href="https://www.researchgate.net/publication/281755707_Processing_extension_for_the_spectral_database_SPECCHIO">PROCESSING EXTENSION FOR THE SPECTRAL DATABASE SPECCHIO</a></u>. 6th EARSeL Workshop on Imaging Spectroscopy, Tel Aviv, Israel.
 
