@@ -6,8 +6,10 @@ SPECCHIO related publications & referencing of SPECCHIO in your own work
 
 If you publish a work that uses the SPECCHIO database and/or data contained therein, please reference:
 
-Hueni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M., Itten, K., 2009. The spectral database SPECCHIO for improved long term usability and data sharing. Computers & Geosciences.
-                  DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2008.03.015">10.1016/j.cageo.2008.03.015
+Hueni, A., Chisholm, L., Ong, C., Malthus, T., Wyatt, M., Trim, S., A., Schaepman, M. E. and Thankappan, M. (2020). "The SPECCHIO Spectral Information System." IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 13: 5789-5799.
+
+<u><a href="https://ieeexplore.ieee.org/document/9201132">Online version of article on IEEE website</a></u>
+
 
 
 ### SPECCHIO on ResearchGate
@@ -18,6 +20,10 @@ Visit our project page on ResearchGate: <a href="https://www.researchgate.net/pr
 
 For more information on the technical setup of SPECCHIO 
 please refer also to the following papers:
+
+Hueni, A., Nieke, J., Schopfer, J., Kneub&uuml;hler, M., Itten, K., 2009. The spectral database SPECCHIO for improved long term usability and data sharing. Computers & Geosciences.
+                  DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2008.03.015">10.1016/j.cageo.2008.03.015
+
 
 Hueni, A., Malthus, T., Kneubuehler, M. and Schaepman, M. (2011). "Data Exchange between distributed Spectral Databases." Computers & Geosciences 37: 861–873. <br>
                   DOI: <a href="http://dx.doi.org/10.1016/j.cageo.2010.12.009">10.1016/j.cageo.2010.12.009</a>.
