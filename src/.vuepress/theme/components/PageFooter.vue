@@ -133,9 +133,9 @@
                 href="https://speclib.jpl.nasa.gov/"
                 target="_blank"
                 rel="noopener noreferrer">
-                ASTER Spectral Library - Version 2.0
+                ECOSTRESS spectral library version 1.0 (formerly the ASTER library)
               </a>
-            </li>
+            </li>            
             <li>
               <a
                 href="https://speclab.cr.usgs.gov/spectral-lib.html"
